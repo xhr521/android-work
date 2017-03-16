@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="北京理工大学珠海学院"
+        android:gravity="top"
+        android:textSize="30pt"
+        android:background="#acff00"
+        android:singleLine="true"
+        android:padding="10dp"
+        android:layout_weight="2"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="软件工程"
+        android:gravity="right"
+        android:textSize="10pt"
+        android:background="#00ffaa"
+        android:padding="17dp"
+        android:layout_weight="1"
+        />
+</LinearLayout>
