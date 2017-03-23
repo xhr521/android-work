@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/widget42">
+
+    <EditText android:id="@+id/question"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="下面哪个学生是34栋737宿舍的同学?"
+        android:textSize="25sp"
+        />
+    <RadioGroup android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton android:id="@+id/a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="海晨"
+        android:textSize="23dp"/>
+        <RadioButton android:id="@+id/b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="浩霖"
+            android:textSize="23dp"/>
+        <RadioButton android:id="@+id/c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="立明"
+            android:textSize="23dp"/>
+        <RadioButton android:id="@+id/d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="致远"
+            android:textSize="23dp"/>
+
+        <Button
+            android:text="确定"
+            android:layout_width="153px"
+            android:layout_height="wrap_content"
+            android:id="@+id/sure"
+            android:textStyle="bold"/>
+        <Button
+        android:text="取消"
+        android:layout_width="153px"
+        android:layout_height="wrap_content"
+        android:id="@+id/cancel"
+        android:textStyle="bold"/>
+    </RadioGroup>
+
+    </LinearLayout>

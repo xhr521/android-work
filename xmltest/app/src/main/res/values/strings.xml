@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">xmltest</string>
+    <string name="hello">你选择的答案是：</string>
+
+</resources>
