@@ -31,6 +31,7 @@ public class LogActivity2 extends Activity{
         super.onRestart();
     }
 
+
     @Override
     protected void onResume() {
         Log.v(LogActivity.LIFT_TAG, "SecondAcvity --->onResume");
