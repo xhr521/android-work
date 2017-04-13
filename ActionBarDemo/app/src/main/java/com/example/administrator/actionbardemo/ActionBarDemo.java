@@ -46,7 +46,7 @@ public class ActionBarDemo extends AppCompatActivity {
                 Toast.makeText(this,str,Toast.LENGTH_SHORT).show();
                 break;
             case R.id.action_call:
-                Intent intent=new Intent(Intent.ACTION_CALL,Uri.parse("Tel:10086"));
+                Intent intent=new Intent(Intent.ACTION_DIAL,Uri.parse("tel:10086"));
                 startActivity(intent);
                 break;
             case R.id.action_msm:
